@@ -1,2 +1,2 @@
 # 23.12-cards
-cards game
+Game, where you should build right way from pipes.
