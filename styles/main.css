@@ -1,0 +1,264 @@
+.conteiner {
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.conteiner .cell {
+  width: 50px;
+  height: 50px;
+  background-color: #f9f93a;
+  position: relative;
+  border: 0.1px solid;
+}
+
+.conteiner .cell.rotation90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.conteiner .cell.rotation180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.conteiner .cell.rotation270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.conteiner .cell.rotation360 {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.conteiner .cell div {
+  width: 21px;
+  height: 21px;
+}
+
+.conteiner .cell .first-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: 8px solid;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .first-3 {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .first-4 {
+  position: absolute;
+  bottom: 0;
+  border-top: 8px solid;
+  border-right: 8px solid;
+}
+
+.conteiner .cell .second-1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: 8px solid;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .second-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 8px solid;
+  border-bottom: 8px solid;
+}
+
+.conteiner .cell .second-3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: 8px solid;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .second-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 8px solid;
+  border-bottom: 8px solid;
+}
+
+.conteiner .cell .third-1-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 8px solid;
+  border-bottom: 8px solid;
+}
+
+.conteiner .cell .third-1-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: 8px solid;
+}
+
+.conteiner .cell .third-2 {
+  position: absolute;
+  width: 50px;
+  bottom: 0;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .third-3-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 8px solid;
+  border-bottom: 8px solid;
+}
+
+.conteiner .cell .third-3-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: 8px solid;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .third-4 {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .third-5 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top: 8px solid;
+  border-right: 8px solid;
+}
+
+.conteiner .cell .fourth-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 8px solid;
+  border-bottom: 8px solid;
+}
+
+.conteiner .cell .fourth-2 {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .fourth-3-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 8px solid;
+  border-bottom: 8px solid;
+}
+
+.conteiner .cell .fourth-3-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-right: 8px solid;
+}
+
+.conteiner .cell .fourth-5 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50px;
+  border-right: 8px solid;
+}
+
+.conteiner .cell .fifth-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: 8px solid;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .fifth-3-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 8px solid;
+  border-bottom: 8px solid;
+}
+
+.conteiner .cell .fifth-3-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: 8px solid;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .fifth-4 {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  border-top: 8px solid;
+}
+
+.conteiner .cell .fifth-5 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 8px solid;
+  border-bottom: 8px solid;
+}
+
+.conteiner .cell .sixth-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 8px solid;
+  border-bottom: 8px solid;
+}
+
+.conteiner .cell .sixth-3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 8px solid;
+  border-bottom: 8px solid;
+}
+
+/*
+.arrows {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 320px;
+    padding-top: 50px;
+    div {
+        width: 50px;
+        height: 50px;
+        background-color: greenyellow;
+        border: 0.1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+*/
+/*# sourceMappingURL=main.css.map */
